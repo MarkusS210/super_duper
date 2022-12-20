@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family:Gilda Display ;
+    src: url(../Fonts/Gilda_Display/GildaDisplay-Regular.ttf);}
+
+    @font-face{
+   font-family: 'Maven Pro';
+   src: url(../Fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);}
+
+
+
+    
+/* header,h1, nav, p {
+    background-color: #333;
+    height: 20vh; */
+    /* margin: 0; */
+    /* padding-left: 10px;} */
+
+
+.schriftfarbeH5 {
+   padding-left: 15px;
+    color:#cccccc ;
+    font-size: 1rem;
+    width: 2px;
+    letter-spacing: 3px;
+}
+
+.center{
+    /* background-color: green; */
+    color: white;
+    font-family:Gilda Display , sans-serif;
+    /* width: 280px; */
+    padding: 30px;
+    /* margin: 0 auto; */
+    text-align: center;
+    /* border: 1px solid #333;
+    border-radius: 10px; */
+   
+    
+}
+
+header section article{
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12)
+}
+header section article:hover{
+    background-image: linear-gradient(
+        to left bottom,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12)
+}
+
+.backgroundBlack{
+    background-color: #333;
+    /* height: 70vh; */
+}
+
+article{
+    /* background-color: red; */
+    display: inline-block ;
+    padding: 10px;
+}
+ h1{
+    font-size: 40px;
+ }
+
+ header nav{
+    width: 200px;
+    margin-left: auto;
+ }
+
+ header nav a{
+    display:block;
+    color: #cccccc;
+    text-align: right;
+    padding-right: 30px;
+    text-decoration: none;
+    /* font-family: Gilda Display; */
+    font-family: 'Maven Pro', sans-serif;
+ }
+
+ a:hover{
+    color: #ffffff;
+
+ }
+ a {
+    margin: 5px;
+ }
+
+ header div{
+    height: 100px;
+ }
+
+ main{
+    background-image:url(../Image/Background-Image.svg) ;
+    background-repeat: no-repeat;
+ }
+
+ main img {
+    max-width: 50%;
+    margin: 0;
+ }
+
+ main section article{
+    max-width: 600px;
+    margin-left: auto;
+    padding-left:200px ;
+    margin-top: 50px;
+ }
+
+ main section article p {
+    margin-top: 30px;
+ }
