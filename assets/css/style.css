@@ -115,13 +115,13 @@ article{
     margin: 0;
  }
 
- main section article{
+ .firstStyle{
     max-width: 600px;
     margin-left: auto;
     padding-left:200px ;
     margin-top: 50px;
  }
 
- main section article p {
+ .firstStyle{
     margin-top: 30px;
  }
